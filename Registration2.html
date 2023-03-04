@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Регистрация</title>
+		<link rel="stylesheet" href="RegAutStyles2.css">
+	</head>
+	<body>
+		<!--Шапка страницы, где расположены ссылочки на другие странички-->
+		<header class="clearfix">
+			<div id="logo">
+				<a href="proekt/main.html"><span>Practi.code</span></a>
+			</div>
+			<div>
+				<nav id="links">
+					<a href="#" class="underline-one"><span>Рейтинг</span></a>
+					<a href="#" class="underline-one"><span>Задания</span></a>
+					<a href="#" class="underline-one"><span>О нас</span></a>
+					<a href="#" class="underline-one"><span>Регистрация</span></a>
+				</nav>
+			</div>
+		</header>
+		<div class="main">
+			<input type="checkbox" id="chk" aria-hidden="true">
+
+				<div class="signup">
+					<form>
+						<label for="chk" aria-hidden="true">Регистрация</label>
+						<input type="text" name="txt" placeholder="Введите логин" required="">
+						<input type="email" name="email" placeholder="Введите email" required="">
+						<input type="password" name="pswd" placeholder="Введите пароль" required="">
+	          <input type="password" name="pswd_2" placeholder="Повторите пароль" required="">
+						<button>Зарегистрироваться</button>
+					</form>
+				</div>
+
+				<div class="login">
+					<form>
+						<label for="chk" aria-hidden="true">Вход</label>
+						<input type="email" name="text" placeholder="Введите логин" required="">
+						<input type="password" name="pswd" placeholder="Введите пароль" required="">
+						<button>Войти</button>
+					</form>
+				</div>
+		</div>
+
+	</body>
+</html>
